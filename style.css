@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+
+body {
+   margin: 0;
+ }
+
+.container {
+   padding: 5px;
+   background-color: rgb(13, 13, 14);
+   font-family: 'Merriweather',serif;
+}
+
+hr {
+    color:	rgb(58, 136, 146);
+    width: 100%;
+    height: 2px;
+    background-color: rgba(54, 224, 39, 0.753);
+}
+
+title {
+    font-weight: 400;
+    color: rgb(188, 237, 238);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: rgba(54, 224, 39, 0.753);
+}
+
+ul li {
+    color: rgba(54, 224, 39, 0.753);
+    font-weight:600;
+    font-stretch: semi-expanded;
+}
+
+.map {
+    width: 1000px;
+    height: 500px;
+    border: 4px solid rgba(54, 224, 39, 0.753);
+}
+
+.foto_hotel {
+    width: 1000px;
+    height: 700px;
+    border: 4px solid rgba(54, 224, 39, 0.753);
+}
+
+.foto_bikepark {
+    width: 700px;
+    height: 1000px;
+    border: 4px solid rgba(54, 224, 39, 0.753);
+}
+
+.foto_voordeelkaart {
+    width: 1000px;
+    height: 700px;
+    border: 4px solid rgba(54, 224, 39, 0.753);
+}
+
+a:link{
+    color: rgba(54, 224, 39, 0.753);
+    text-decoration: none;
+    font-family: 'Merriweather',serif;
+    font-weight: bold;
+    }
+    
+a:visited{
+    color: rgb(64, 219, 206);
+    text-decoration: underline;
+    font-family: 'Merriweather',serif;
+    font-weight: bold;
+    }
+    
+a:hover{
+    color:rgb(230, 124, 39);
+    text-decoration: none;
+    font-family: 'Merriweather',serif;
+    font-weight: bold;
+    }
+    
